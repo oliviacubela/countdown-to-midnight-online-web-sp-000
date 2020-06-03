@@ -1,6 +1,6 @@
 seconds_remaining = 10
 
-def countdown(seconds_remaining)
+def countdown
   while seconds_remaining == 10
     puts "#{seconds_remaining} SECOND(S)!"
     seconds_remaining -= 1
